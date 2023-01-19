@@ -1,8 +1,10 @@
 FROM python:3.9-slim
 
-COPY ./entrypoint.sh /entrypoint.sh
 COPY ./app /app
-COPY ./requirements.txt /requirements.txt
+
+COPY ./entrypoint.sh /app/entrypoint.sh
+
+COPY ./requirements.txt /app/requirements.txt
 
 # just for linux
 RUN apt-get update && \

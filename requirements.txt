@@ -6,5 +6,8 @@ pytest
 requests
 httpx
 pre-commit # for pre-commit hooks(steps), automatically run on commit
-
-
+python-dotenv # for loading environment variables from .env file
+python-multipart
+pillow
+aiofiles
+pytesseract
