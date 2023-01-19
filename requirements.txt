@@ -1,0 +1,10 @@
+fastapi
+gunicorn
+uvicorn
+jinja2  # for templates
+pytest
+requests
+httpx
+pre-commit # for pre-commit hooks(steps), automatically run on commit
+
+
